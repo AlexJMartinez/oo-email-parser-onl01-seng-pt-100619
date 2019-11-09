@@ -12,8 +12,8 @@ class EmailAddressParser
   end
 
   def parse
-    emails = email_addresses.split(/,| /)
-    emails.reject {|email| email.reject}
+    email_addresses.split(/,| /)
+
     #binding.pry
 
   end
