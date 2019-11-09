@@ -14,7 +14,6 @@ class EmailAddressParser
   def parse
     emails = email_addresses.split(/,| /)
     emails.reject {|email| email == ""}.uniq
-
     #binding.pry
   end
 
