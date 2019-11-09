@@ -10,7 +10,7 @@ class EmailAddressParser
   end
 
   def parse
-    to_a
+    email_addresses.split("")
 
   end
 
