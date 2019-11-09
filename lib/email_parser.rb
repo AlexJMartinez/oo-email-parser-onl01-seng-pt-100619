@@ -13,8 +13,9 @@ class EmailAddressParser
 
   def parse
     parser = email_addresses.split(", ")
-    parser.split(" ")
     binding.pry
+    parser.split(" ")
+    
 
   end
 
