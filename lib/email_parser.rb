@@ -15,7 +15,6 @@ class EmailAddressParser
     email_addresses.split(", ")
 
     #binding.pry
-
   end
 
 
