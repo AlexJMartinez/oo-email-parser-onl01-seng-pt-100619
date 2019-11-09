@@ -12,7 +12,7 @@ class EmailAddressParser
   end
 
   def parse
-    email_addresses(/,| /)
+    email_addresses([/,| /])
     #binding.pry
 
   end
