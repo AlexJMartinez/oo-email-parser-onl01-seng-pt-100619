@@ -12,7 +12,7 @@ class EmailAddressParser
   end
 
   def parse
-    emails = email_addresses.split(", ")
+    emails = email_addresses.split(/,| /)
     emails.reject {|x| x == ""}
 
     #binding.pry
