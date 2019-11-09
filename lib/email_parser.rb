@@ -17,5 +17,4 @@ class EmailAddressParser
     #binding.pry
   end
 
-
 end
