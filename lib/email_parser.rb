@@ -13,7 +13,7 @@ class EmailAddressParser
 
   def parse
     emails = email_addresses.split(/,| /)
-    emails.reject
+    emails.reject {|email}
     #binding.pry
 
   end
