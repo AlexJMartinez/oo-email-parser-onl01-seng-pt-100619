@@ -10,7 +10,7 @@ class EmailAddressParser
   end
 
   def parse
-    email_addresses.gsub(/\s+/m, ' ').split(" ")
+    email_addresses.strip.split(" ")
 
   end
 
