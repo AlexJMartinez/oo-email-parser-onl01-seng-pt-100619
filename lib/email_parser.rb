@@ -10,6 +10,7 @@ class EmailAddressParser
   end
 
   def parse
+    to_a
 
   end
 
